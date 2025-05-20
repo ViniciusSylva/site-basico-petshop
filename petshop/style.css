@@ -1,2 +1,46 @@
 @charset "UTF-8";
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: aqua;
+}
+article#segtexto {
+    background-color: white;
+    height: 300px;
+    width: 650px;
+}
+
+div {
+    color: white;
+    
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+div#pribloco {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+div#segbloco {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+}
+
+div#terbloco {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(8, 100, 16);
+}
+
+div#quabloco {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(5, 0, 78);
+}
