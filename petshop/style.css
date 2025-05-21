@@ -1,49 +1,37 @@
 @charset "UTF-8";
 
-* {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /*Configurações globais para tirar espaçamentos automaticos e etc, e arrumar tudo manualmente*/
-    padding: 0px;
-    margin: 0px;       
-    box-sizing: border-box;
-}
-
-body, html {
-    background-color: aqua;
-    overflow-x: hidden; /*Tirar rolagem lateral*/
-    height: 100vh;
-    width: 100vw;
-}
-
-h1 {
-    margin-left: 10px;
-}
-
-h2 {
-    margin-left: 10px;
-}
-
-h3 {
-    margin-left: 10px;
-}
-
-p {
-    margin-left: 10px;
-}
-
-article#segtexto {
-    background-color: white;
-    height: 300px;
-    width: 650px;
-}
-
-div {
-    color: white;
-    display: inline-block;
-    flex-wrap: wrap;
-    height: 200px;
-    width: 200px;
-    background-color: black;
-    border-radius: 7px;
-    margin: 10px;
-}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+    }
+    header {
+      background-color: #ff8c42;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .intro {
+      padding: 20px;
+      text-align: center;
+      background-color: #fff4e6;
+    }
+    .blocos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .bloco {
+      background-color: #ffe0b2;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .bloco h3 {
+      margin-top: 0;
+      color: #e65100;
+    }
