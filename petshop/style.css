@@ -1,13 +1,23 @@
 @charset "UTF-8";
 
+  /*
+    Roxo da logo
+    #5d16ec
+    rgba(93,22,236,255)
+
+    Roxo claro
+    #914cfc
+    rgb(145,76,252)
+  */
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #fefefe;
+      background-color: #ffffff;
     }
     header {
-      background-color: #ff8c42;
+      background-color: #5d16ec;
       color: white;
       padding: 40px 20px;
       text-align: center;
@@ -15,7 +25,7 @@
     .intro {
       padding: 20px;
       text-align: center;
-      background-color: #fff4e6;
+      background-color: #d7c1f8;
     }
     .blocos {
       display: flex;
@@ -25,7 +35,7 @@
       gap: 20px;
     }
     .bloco {
-      background-color: #ffe0b2;
+      background-color: #d7c1f8;
       border-radius: 10px;
       padding: 20px;
       width: 250px;
@@ -33,5 +43,5 @@
     }
     .bloco h3 {
       margin-top: 0;
-      color: #e65100;
+      color: #5d16ec;
     }
